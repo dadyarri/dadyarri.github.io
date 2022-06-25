@@ -4,12 +4,12 @@
 }
 
 .header {
-    background: rgb(40,35,125);
-    background: linear-gradient(90deg, rgba(40,35,125,1) 0%, rgba(38,38,184,1) 35%, rgba(0,212,255,1) 100%);
+    background: rgb(40, 35, 125);
+    background: linear-gradient(90deg, rgba(40, 35, 125, 1) 0%, rgba(38, 38, 184, 1) 35%, rgba(0, 212, 255, 1) 100%);
     border-radius: 15px;
     padding: 40px;
     display: flex;
-    box-shadow: 23px 18px 15px -3px rgba(0,0,0,0.2);
+    box-shadow: 23px 18px 15px -3px rgba(0, 0, 0, 0.2);
 }
 
 .avatar-image {
@@ -64,4 +64,79 @@
 
 .email-link * {
     padding: 0px 5px;
+}
+
+.card {
+    box-shadow: 23px 18px 15px -3px rgba(0, 0, 0, 0.2);
+    padding: 40px;
+    border-radius: 15px;
+}
+
+.card-group {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+}
+
+.card-title {
+    font-size: 20px;
+    font-weight: regular;
+}
+
+.card-label {
+    padding: 5px 8px;
+    border: 1px solid black;
+    color: black;
+    width: max-content;
+    border-radius: 10px;
+    margin: 5px 0px;
+}
+
+.card-description {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+
+.animated-progress {
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+    margin: 20px 10px;
+    border: 1px solid black;
+    overflow: hidden;
+    position: relative;
+}
+
+.animated-progress span {
+    height: 100%;
+    display: block;
+    width: 0;
+    color: rgb(255, 251, 251);
+    line-height: 30px;
+    position: absolute;
+    text-align: end;
+    padding-right: 5px;
+}
+
+.progress-python span {
+    background-color: #4584b6;
+}
+
+.progress-csharp span {
+    background-color: #7552cc;
+}
+
+.progress-html span {
+    background-color: #e34f26;
+}
+
+.progress-docker span {
+    background-color: #0db7ed;
+}
+
+.progress-english span {
+    background-color: #c13584;
 }
