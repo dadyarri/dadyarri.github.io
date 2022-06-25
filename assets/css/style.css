@@ -156,6 +156,10 @@
     background-color: #00758f;
 }
 
+.progress-postgres span {
+    background-color: #1793d1;
+}
+
 .vertical-divider{
     display: inline-block;
     border-left: 1px solid #ccc;
@@ -191,6 +195,11 @@
     width: 70px;
 }
 
+.expirience-title {
+    display: flex;
+    align-items: center;
+}
+
 .expirience-button {
     border-radius: 15px;
     background: rgb(40, 35, 125);
@@ -198,6 +207,10 @@
     display: flex;
     align-items: center;
     width: max-content;
-    padding: 10px;
+    padding: 8px 15px;
     text-decoration: none;
+}
+
+.expirience-button * {
+    margin: 5px;
 }
