@@ -108,7 +108,7 @@
 }
 
 .animated-progress {
-    width: 300px;
+    width: 70%;
     height: 30px;
     border-radius: 5px;
     margin: 20px 10px;
@@ -213,4 +213,10 @@
 
 .expirience-button * {
     margin: 5px;
+}
+
+@media screen and (max-width: 700px) {
+    .project-item {
+        width: 80%;
+    }
 }
