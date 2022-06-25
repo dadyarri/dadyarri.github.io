@@ -152,6 +152,10 @@
     background-color: #f7df1e;
 }
 
+.progress-postgres span {
+    background-color: #00758f;
+}
+
 .vertical-divider{
     display: inline-block;
     border-left: 1px solid #ccc;
